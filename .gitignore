@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Private research inputs / datasets
+private_inputs/
+data/
+datasets/
+annotations/
+
+# Generated artifacts and model outputs
+artifacts/
+outputs/
+results/
+logs/
+reports/
+
+# Common data formats (not intended for public release)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.parquet
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

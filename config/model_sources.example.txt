@@ -1,0 +1,10 @@
+# Local-only model-output directory convention.
+# Do not commit actual model outputs.
+
+private_inputs/model_outputs/
+├── multi_agent/
+├── deepseek_v4_pro/
+├── glm_4_7/
+├── gpt_5_4/
+├── gpt_5_5/
+└── qwen_3_6_plus/
